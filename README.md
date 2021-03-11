@@ -1,4 +1,4 @@
-<h1 align="center"> ⚒ ZEE5 SCRAPPER 🔐 </h1>
+<h1 align="center"> ⚒ ZEE5 LIVETV SCRAPPER 🔐 </h1>
 
 <p align="center"> It can Scrap ZEE5 Live Streaming URL's Using The Channel ID </p>
 
