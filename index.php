@@ -1,6 +1,8 @@
 <?php
+// ©Avishkarpatil [ Telegram ]
 // usage index.php?c=0-9-129
 // Don't Change Any Thing !
+
 $input = $_GET["c"];
 if (!$input){
    exit("<h3>Channel ID not found <br><br>You Entered Worng ID or Not Entered ID Here</h3><br><h4> Use Correct Format ➸ <code>https://zee.avipatilpro.repl.co/?c=CHANNEL_ID_HERE</code> <br><br><br> <h4> ➤ Created by <a href='https://github.com/avipatilpro'>Avi Patil</a></h4> ");
@@ -16,9 +18,9 @@ echo $m3u8;
 function JsonfromURI($url) {
    $resp = file_get_contents($url);       
    return json_decode($resp);
-};
-<?php
+
+
 header("Location: $stream_url.$video_token;
 echo $m3u8;");
 exit();
-?>
+};
