@@ -17,3 +17,8 @@ function JsonfromURI($url) {
    $resp = file_get_contents($url);       
    return json_decode($resp);
 };
+<?php
+header("Location: $stream_url.$video_token;
+echo $m3u8;");
+exit();
+?>
