@@ -2,7 +2,7 @@
 
 <p align="center"> It can Scrap ZEE5 Live Streaming URL's Using The Channel ID </p>
 
-<h2> How To Use : </h2>
+<h2>🍂 How To Use : </h2>
 
 <h4>
 • Go on <a href="https://www.zee5.com/livetv">ZEE5 Live TV</a> Page <br><br>
@@ -15,6 +15,17 @@
 • Run Final URL in Browser You Get Streaming URL <br>
 </h4>
 <br><br>
+
+## 🍃 ShortCut
+
+<h4>
+• Put Complete I'd : http://z5tv.herokuapp.com/CHANNEL_ID <br><br>
+• Put I'd after <code>0-9-</code> : http://z5tv.herokuapp.com/c/CHANNEL_ID
+  </h4><br>
+  
+  <h3>👆☝ This is For Direct Streaming Without Link Expire </h3><br><br>
+  
+---
 
 <h3>• Check List Of Channel Id's <a href="Channel_IDs.md">Here</a></h3>
 
