@@ -1,0 +1,27 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f 
+RewriteRule ^(.*)$ $1.php
+
+
+# Return 404 if original request is .php 
+
+# RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
+# RewriteRule .* - [L,R=404]
+
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-l
+# RewriteRule ^zee/([a-zA-Z0-9])$ zee?c=$1 [QSA,L] #[A-Z8]
+
+
+# RewriteEngine on
+
+RewriteCond %{z5.php} !-d
+RewriteCond %{z5.php} !-f
+RewriteCond %{z5.php} !-l
+RewriteRule ^c/(.*)$ z5.php?c=0-9-$1 [QSA]
+RewriteRule ^(.*)$ z5.php?c=$1 [QSA]
