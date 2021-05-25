@@ -19,8 +19,8 @@
 ## 🍃 ShortCut
 
 <h4>
-• Put Complete I'd : http://z5tv.herokuapp.com/CHANNEL_ID <br><br>
-• Put I'd after <code>0-9-</code> : http://z5tv.herokuapp.com/c/CHANNEL_ID
+• Put Complete I'd : https://tv.zee5play.ml/CHANNEL_ID <br><br>
+• Put I'd after <code>0-9-</code> : https://tv.zee5play.ml/c/CHANNEL_ID
   </h4><br>
   
   <h3>👆☝ This is For Direct Streaming Without Link Expire </h3><br><br>
@@ -33,4 +33,4 @@
 
 <h2> Where To Host : </h2>
 
-<h5 align="center"> Copy The index.php code and Host on repl.it <br> or Your Hosting Otherwise Use https://zee.avipatilpro.repl.co
+<h5 align="center"> Copy The index.php code and Host on repl.it <br> or Your Hosting Otherwise Use https://tv.zee5play.ml/
