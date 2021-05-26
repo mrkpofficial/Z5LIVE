@@ -5,7 +5,7 @@
 <h2>🍂 How To Use : </h2>
 
 <h4>
-• Go on <a href="https://www.zee5.com/livetv">ZEE5 Live TV</a> Page <br><br>
+• Go on <a href="https://www.zee5.com/channels">ZEE5 Live TV</a> Page <br><br>
 • Click On Channel Which Links You Want <br><br>
 • And Just Copy Channel ID From URL Box <br><br>
 • e.g --> I Use This Link : https://www.zee5.com/channels/details/zee-cinema-hd/0-9-zeecinemahd <br><br>
