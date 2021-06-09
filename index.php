@@ -1,28 +1,29 @@
 <?php
-// ©Avishkarpatil [ Telegram ]
-// usage index.php?c=0-9-129
+// ©AvishkarPatil [ Telegram ]
+// usage index.php?c=Channel_ID
 // Don't Change Any Thing !
 
-$input = $_GET["c"];
-if (!$input){
-   exit("<h3>Channel ID not found <br><br>You Entered Worng ID or Not Entered ID Here</h3><br><h4> Use Correct Format ➸ <code>https://zee.avipatilpro.repl.co/?c=CHANNEL_ID_HERE</code> <br><br><br> <h4> ➤ Created by <a href='https://github.com/avipatilpro'>Avi Patil</a></h4> ");
-  
-}
-$channel_meta = JsonfromURI("https://catalogapi.zee5.com/v1/channel/${input}");
-$stream_url = $channel_meta->stream_url_hls;
-$tok_json = JsonfromURI("https://useraction.zee5.com/token/live.php");
-$video_token = $tok_json->video_token;
-$m3u8 = $stream_url.$video_token;
+$url = $_GET["c"];
+if($url !=""){
+
+$data = file_get_contents("https://catalogapi.zee5.com/v1/channel/${url}");
+$z5 =json_decode($data, true);
+$stream = $z5['stream_url_hls'];
+
+$tdata = file_get_contents("https://useraction.zee5.com/token/live.php");
+$tok =json_decode($tdata, true);
+$vid_token = $tok['video_token'];
+$m3u8 = $stream.$vid_token;
+
 //echo $m3u8;
 header("Location: $m3u8"); //--> For Direct Play
 
-function JsonfromURI($url) {
-   $resp = file_get_contents($url);       
-   return json_decode($resp);
+}
+else{
+  $ex= array("error" => "Something went wrong, Check URL", "created_by" => "Avishkar Patil" );
+  $error =json_encode($ex);
 
+  echo $error;
+}
 
-header("Location: $stream_url.$video_token;
-echo $m3u8;");
-exit();
-};
 ?>
