@@ -1,8 +1,8 @@
-<h1 align="center"> ⚒ ZEE5 LIVETV 🔐 </h1>
+<h1 align="center"> ✯ ZEE5 LIVETV ✯ </h1>
 
-<p align="center"> It can Scrap ZEE5 Live Streaming URL's Using The Channel ID </p>
+<p align="center"><b>It can Scrap ZEE5 Live Streaming URL's Using The Channel ID and Direct Play Anywhere</b></p><br>
 
-<h2>🍂 How To Use : </h2>
+<h2>🍁 How To Use : </h2>
 
 <h4>
 • Go on <a href="https://www.zee5.com/channels">ZEE5 Live TV</a> Page <br><br>
@@ -23,7 +23,7 @@
 • Put I'd after <code>0-9-</code> : https://tv.zee5play.ml/c/CHANNEL_ID
   </h4><br>
   
-  <h3>👆☝ This is For Direct Streaming Without Link Expire </h3><br><br>
+  <h3>👆☝ This is For Direct Streaming Without Link Expire </h3><br>
   
 ---
 
@@ -34,3 +34,7 @@
 <h2> Where To Host : </h2>
 
 <h5 align="center"> Copy The index.php code and Host on repl.it <br> or Your Hosting Otherwise Use https://tv.zee5play.ml/
+  
+  
+---
+<h5 align='center'>© 2021 Aνιѕнкαя Pαтιℓ</h5>
