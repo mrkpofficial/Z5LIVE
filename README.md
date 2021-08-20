@@ -21,7 +21,7 @@
 
 <h2> Where To Host : </h2>
 
-<h5 align="center"> Copy The index.php code and Host on repl.it <br> or Your Hosting Otherwise Use https://tv.zee5play.ml/
+<h5 align="center"> Copy The index.php code and Host on repl.it <br> or Your Hosting
    
 ---
 <h5 align='center'>© 2021 Aνιѕнкαя Pαтιℓ</h5>
