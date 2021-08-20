@@ -19,9 +19,9 @@
 <h5>• Check List Of Channel Id's <a href="Channel_IDs.md">Here</a></h5>
 <br>
 
-<h2> Where To Host : </h2>
 
-<h5 align="center"> Copy The index.php code and Host on repl.it <br> or Your Hosting
+
+<h5 align="center"> Copy The index.php code and Host on repl.it or Your Hosting
    
 ---
 <h5 align='center'>© 2021 Aνιѕнкαя Pαтιℓ</h5>
