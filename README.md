@@ -16,7 +16,7 @@
 • Run Final URL in Browser You Get Streaming URL <br>
 </h4>
   
-<h3>• Check List Of Channel Id's <a href="Channel_IDs.md">Here</a></h3>
+<h5>• Check List Of Channel Id's <a href="Channel_IDs.md">Here</a></h5>
 <br>
 
 <h2> Where To Host : </h2>
