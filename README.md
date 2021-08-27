@@ -4,8 +4,6 @@
 
 <h2>🍁 How To Use : </h2>
 
-- ***Before Using Put Accsess Token And Authorization In code at given Place***
-
 <h4>
 • Go on <a href="https://www.zee5.com/channels">ZEE5 Live TV</a> Page <br><br>
 • Click On Channel Which Links You Want <br><br>
@@ -16,6 +14,8 @@
 • Run Final URL in Browser You Get Streaming URL <br>
 </h4>
   
+- ***For DRM script Before Using Put Accsess Token And Authorization In code at given Place DRM.php***
+
 <h5>• Check List Of Channel Id's <a href="Channel_IDs.md">Here</a></h5>
 <br>
 
